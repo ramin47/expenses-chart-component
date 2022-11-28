@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>expenses-chart-component-main</title>
+</head>
+<body>
+
+  <div class="container">
+
+
+  <div class="navbar">
+    <p class="paragOne">My balance</p> <br>
+    <p class="price">$921.48</p>
+    <img class="imgLogo" src="E:\projects\expenses-chart-component-main\images/logo.svg" alt="">
+
+
+  </div>
+
+
+  <div class='main'>
+    <div class="paragOut">
+    <p class="paragHead">Spending - Last 7 days</p>
+  </div>
+
+    <div class="chartDiv">
+
+
+    <div class='chart1' onmouseover="overOne()" onmouseout="outOne()" onclick="showone()"><p class="first" id="first">$15.00</p></div>
+    <div class='chart2' onmouseover="overtwo()" onmouseout="outtwo()" onclick="showtwo()"><p class="first" id="second">$30.00</p></div>
+    <div class='chart3' onmouseover="overthree()" onmouseout="outthree()" onclick="showthree()"><p class="first" id="third">$52.36</p></div>
+    <div class='chart4' onmouseover="overfour()" onmouseout="outfour()" onclick="showforth()"><p class="first" id="forth">$31.07</p></div>
+    <div class='chart5' onmouseover="overfive()" onmouseout="outfive()" onclick="showfifth()"><p class="first" id="fifth">$20.00</p></div>
+    <div class='chart6' onmouseover="oversixth()" onmouseout="outsixth()" onclick="showsixth()"><p class="first" id="sixth">$35.00</p></div>
+    <div class='chart7' onmouseover="overseventh()" onmouseout="outseventh()" onclick="showseventh()"><p class="first" id="seventh">$20.00</p></div>
+
+  </div>
+
+  <hr>
+
+  <div class="footer">
+    <div class="left">
+      <p class="totalParag">Total this month</p> 
+      <p class="priceTotal">$203.43</p>
+    </div>
+
+    
+    <div class="right">
+      <p class="percentage">+2.4%</p>
+      <p class="totalParagTwo">Total this month</p>
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+</div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
